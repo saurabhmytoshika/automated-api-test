@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APITests E2E" parallel="false">
+	
+	<test name="ApiE2EFlow">
+		<classes>
+			<class name="org.example.ApiE2EFlow"/>
+		</classes>
+	</test>
+</suite>
